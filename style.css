@@ -1,0 +1,636 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+    margin: 0 0px;
+    padding: 0;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+header {
+    margin-bottom: 0;
+}
+header .navbar-brand {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+header .nav-item {
+    margin-left: 50px;
+}
+.nav-item a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #000;
+    transition: all 0.2s;
+    transform: scale(0);
+}
+.nav-item a:hover::after {
+    transform: scale(1);
+    color: #000000;
+}
+header .nav-link {
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+.slider{
+    margin-bottom: 100px;
+}
+
+/*service-section*/
+.services {
+    margin-bottom: 70px;
+    background-image: url('https://bryansktube.ru/wp-content/uploads/2018/09/ddykljfxkaafy00.jpg-large-1024x768.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #57646e;
+    width: 100%;
+    background-attachment: fixed;
+    height: auto;
+    padding-top: 50px;
+}
+.service-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.service-item {
+    width: 250px;
+    text-align: center;
+    color: white;
+}
+.service-icon {
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+}
+.service-icon  .fa {
+    color: #fff;
+}
+.service-title {
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.service-text {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+/*btn*/
+ .btn {
+    display: flex;
+    justify-content: center;
+    padding: 8px 35px;
+    margin-bottom: 50px;
+}
+/*about-section*/
+.about {
+    margin-bottom: 100px;
+}
+.about-post {
+    display: flex;
+    justify-content: space-between;
+}
+.about-item-1 {
+    margin-right: 20px;
+}
+.img {
+    width: 600px;
+    height: auto;
+} 
+.about-title {
+    font-size: 30px;
+    color: #57646e;
+    margin-bottom: 15px;
+}
+.about-text {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(104, 103, 103);
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.about-btn {
+    background-color: rgb(51, 114, 150);
+    color: #fff;
+    padding: 5px 15px;
+}
+.about-2 .about-item-1 {
+    margin-right: 30px;
+}
+.about-2 .about-item-2 {
+    margin-right: 60px;
+}
+
+.about-2 .img {
+    width: 500px;
+    height: auto;
+}
+/*services-our*/
+.our-services {
+    margin-top: 80px;
+    border-top: 2px solid gray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 100px;
+}
+.our-services-content {
+    display: flex;
+}
+.our-services-img img {
+    height: 300px;
+}
+.our-services-post {
+    margin-left: 100px;
+    width: 97%;
+}
+.our-services-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #57646e;
+}
+.our-services-text {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(104, 103, 103);
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+.our-services-btn {
+    background-color: rgb(29, 131, 190);
+    color: #fff;
+    padding: 5px 15px;
+}
+/*sectin-menu*/
+.menu {
+    margin-bottom: 70px;
+    background-image: url('https://bryansktube.ru/wp-content/uploads/2018/09/ddykljfxkaafy00.jpg-large-1024x768.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #57646e;
+    width: 100%;
+    background-attachment: fixed;
+    height: auto;
+    padding: 3px 0;
+}
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap-: wrap;
+}
+.menu-item {
+    margin-left: 25px;
+}
+.menu-item:hover {
+    background-color: rgb(33, 117, 117);
+}
+.menu-text {
+    color: white;
+    font-size: 2.3em;
+    font-family: 'Ubuntu' sans-serif;
+    text-align: center;
+}
+/*team-section*/
+.team {
+    margin-bottom: 80px;
+}
+.team-block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.team-item {
+    text-align: center;
+}
+.team-icon {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #bdb9b9;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: block;
+}
+.team-title {
+    font-size: 30px;
+    color: #3a3a3a;
+}
+.team-sub-title {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color:#57646e;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.team-btn {
+    background-color: rgb(29, 131, 190);
+    color: #fff;
+    padding: 5px 15px;
+    margin: 0 auto;
+}
+/*footer*/
+.footer {
+    background-image: url(https://img5.goodfon.ru/original/1920x1080/0/4a/dual-monitor-nochnoi-gorod-tiomnyi-fon.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #4d5153;
+    width: 100%;
+    background-attachment: fixed;
+    height: auto;
+    padding: 3px 0
+}
+.footer-block {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.footer-title {
+    margin-top: 10px;
+    font-size: 2.7em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.footer-sub-title {
+    color: #f3f3f3;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.calling {
+    font-size: 23px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.calling span {
+    color: rgb(31, 121, 163);
+}
+.email {
+    font-size: 23px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.email span {
+    color: rgb(31, 121, 163);
+}
+.social {
+    margin-left: 0;
+}
+.social a {
+    margin-left: 20px;
+    font-size: 28px;
+    padding: 8px;
+    color: white;
+}
+.social a:hover {
+    color: rgb(29, 131, 190);
+}
+.social a:first-child {
+    margin-left: 0;
+}
+input {
+    margin-top: 10px;
+    background: transparent;
+    padding: 10px 10px;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #3e4e58;
+    margin-bottom: 20px;
+    color: #fff;
+}
+textarea {
+    background-color: transparent;color: white;
+    height: 80px;
+    border: 1px solid #3e4e58;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.form-btn {
+    margin: 0 auto;
+    padding: 10px 15px;
+    background-color: rgb(29, 131, 190);
+    color: white;
+}
+
+/*@media*/
+
+@media (max-width:1024px) {
+    .service-item {
+        width:350px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .menu-text {
+        font-size: 2em;
+    }
+}
+@media (max-width:823px) {
+    header .nav-item {
+        margin-left: 0;
+    }
+    .slider {
+        margin-bottom: 20px;
+    }
+    .service-item {
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .btn {
+        margin-bottom: 15px;
+    }
+    .about-post {
+        display: block;
+    }
+    .img img {
+        margin: 0 auto;
+        display: block;
+        width: 700px;
+        text-align: center;
+    }
+    .about-item-2 {
+        text-align: center;
+        margin-bottom: -20px;
+    }
+    .about-btn {
+        margin: 0 auto;
+    }
+    .about-2 .about-item-2 {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .our-services-content {
+        display: block;
+    }
+    .our-services-img img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .our-services-post {
+        margin-left: 0;
+        text-align: center;
+    }
+    .our-services-btn {
+        margin: 0 auto;
+    }
+    .menu-item {
+        font-size: 0.80em;
+    }
+    input {
+        width: 300px;
+    }
+    textarea {
+        width: 300px;
+    }
+}
+@media (max-width:768px) {
+    header .nav-item {
+        margin-left: 0;
+    }
+    .service-item {
+        width:250px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about-post {
+        display: block;
+    }
+    .about-post .img {
+        display: block;
+        width: 100%;
+        margin-bottom: -20px;
+    }
+    .btn {
+        margin-bottom: 30px;
+    }
+    .about-item-2 {
+        margin: 0;
+        width: 100%;
+    }
+    .our-services-content {
+        display: block;
+    }
+    .our-services-img img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+    .our-services-post {
+        margin-left: 0;
+    }
+    .footer-block {
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width:736px) {
+    .img img {
+        display: block;
+        width: auto;
+        max-height: 300px;
+        margin: 0 auto;
+    }
+    .about {
+        margin-bottom: 30px;
+    }
+    .our-services-img img {
+        display: block;
+        width: auto;
+        max-height: 320px;
+    }
+    .menu-text {
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 667px) {
+    .team-item {
+        width: 250px;
+    }
+}
+@media (max-width: 568px) {
+    .img img {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .our-services-img img {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .menu-text {
+        font-size: 1.1em;
+    }
+}
+@media (max-width:414px) {
+    .service-item {
+        min-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .img img {
+        display: block;
+        max-height: 250px;
+        width: auto;
+    }
+    .about {
+        margin-bottom: 30px;
+    }
+    .menu-content {
+        display: block;
+    }
+    .menu-item {
+        font-size: 13px;
+    }
+    .footer-item {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:411px) {
+    .team-item {
+        display: block;
+        width: 100%;
+    }
+}
+@media (max-width:375px) {
+    .slider {
+        margin-bottom: 20px;
+    }
+    .service-item {
+        width: 100%;
+    }
+    .services {
+        margin-bottom: 20px;
+    }
+    .about {
+        margin-bottom: 50px;
+    }
+    .about-post img {
+        display: block;
+        min-width: 100%;
+        min-height: auto;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .about-title {
+        font-size: 25px;
+        text-align: center;
+    }
+    .about-text {
+        text-align: center;
+    }     
+    .about-btn {
+        margin: 0 auto;
+    }  
+    .img img {
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 345px;
+    }
+    .our-services-img img {
+        display: block;
+        width: auto;
+        max-height: 230px;
+    }
+    .our-services-title {
+        font-size: 26px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .our-services-text {
+        text-align: center;
+    }
+    .our-services-btn {
+        margin: 0 auto;
+    }
+    .menu-content {
+        display: block;
+        margin: 0 auto;
+    }
+    .menu-text {
+        font-size: 25px;
+        text-align: center;
+    }
+    .team-block {
+        display: block;
+    }
+    .team-item {
+        min-width: 100%;
+        display: block;
+    }
+    .team-sub-title {
+        font-size: 15px;
+    }
+    input {
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+}
+@media (max-width:360px) {
+    .about-item-1 .img {
+        margin: 0 auto;
+        display: block;
+        width: auto;
+        max-height: 190px;
+    }
+    .img img {
+        display: block;
+        margin: 0 auto;
+        max-height: 220px;
+        width: auto;
+        text-align: center;
+        overflow: hidden;
+    }
+    .our-services-img img {
+        display: block;
+        margin: 0 auto;
+        max-height: 215px;
+        width: auto;
+        text-align: center;
+        overflow: hidden;
+    }
+}
+@media (max-width:320px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    .img img {
+        display: block;
+        width: auto;
+        max-height: 180px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .our-services-img img {
+        display: block;
+        width: auto;
+        max-height:180px;  
+        overflow: hidden;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .menu-text {
+        font-size: 15px;
+    }
+    .footer-title {
+        font-size: 35px;
+    }
+    .social a {
+        font-size: 18px;
+    }
+}
